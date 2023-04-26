@@ -1,8 +1,9 @@
 *{font-family:'Roboto', sans-serif;background-color: black; color: white;}
+.bg-nav{background-color: #0DCAF0;}
 p{color: white;}
-.footer{background-color: aqua;}
-hr{background-color:aqua;}
+.footer{background-color: #0DCAF0;}
+hr{background-color:#0DCAF0;}
 section{padding-top: 50pt;}
 .color-tex{color: white;}
-.gn-icon{background-color: aqua;padding: 10px;}
+.gn-icon{background-color: #0DCAF0;padding: 10px;}
   #mensaje{ height: max-content;}
