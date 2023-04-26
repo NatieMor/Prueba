@@ -1,9 +1,11 @@
 *{font-family:'Roboto', sans-serif;background-color: black; color: white;}
 .bg-nav{background-color: #0DCAF0;}
 p{color: white;}
-.footer{background-color: #0DCAF0;}
+.footer{background-color: #0DCAF0;padding: 5px !important;}
+#pie{padding-left: 100px !important; padding-right: 100px !important;}
 hr{background-color:#0DCAF0;}
 section{padding-top: 50pt;}
 .color-tex{color: white;}
 .gn-icon{background-color: #0DCAF0;padding: 10px;}
   #mensaje{ height: max-content;}
+  i{background-color: #0DCAF0;}
