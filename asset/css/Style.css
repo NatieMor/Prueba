@@ -1,13 +1,75 @@
-*{font-family:'Roboto', sans-serif;background-color: black; color: white;}
-.bg-nav{background-color: #0DCAF0;}
-p{color: white; font-size: 24px;}
-.footer{background-color: #0DCAF0;padding: 5px !important;}
-#pie{padding-left: 100px !important; padding-right: 100px !important;}
-hr{background-color:#0DCAF0;}
-section{padding-top: 50pt;}
-.color-tex{color: white;}
-.gn-icon{background-color: #0DCAF0;padding: 10px;}
-  #mensaje{ height: max-content;}
-  i{background-color: #0DCAF0;}
-p{font-weight: 300; font-size: medium;}
-.card{border: none !important;}
+* {
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.card-img-top {
+  width: 239px;
+  height: 200px;
+}
+
+.card-body {
+  background-color: #0DCAF0;
+}
+
+.body {
+  background-color: none;
+}
+
+.gn-icon {
+  background-color: #0DCAF0;
+  padding: 10px;
+}
+
+#deck1 {
+  border: none !important;
+}
+
+
+.bg-nav {
+  background-color: #0DCAF0;
+}
+
+p {
+  color: white;
+  font-size: 35px;
+}
+
+.footer {
+  background-color: #0DCAF0;
+  padding: 5px !important;
+}
+
+#pie {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+  font-size: larger; font-weight: 400;
+}
+
+hr {
+  background-color: #0DCAF0;
+}
+
+section {
+  padding-top: 50pt;
+}
+
+.color-tex {
+  color: white;
+}
+
+
+
+#mensaje {
+  height: max-content;
+}
+
+i {
+  background-color: #0DCAF0;
+}
+
+p {
+  font-weight: 300;
+  font-size: medium;
+}
