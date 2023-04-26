@@ -1,7 +1,15 @@
 * {
   font-family: 'Roboto', sans-serif;
   background-color: black;
-  color: white;
+  color: white; margin: 0; padding:0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.img-carrusel {
+  width: 100%;
 }
 
 .card-img-top {
@@ -44,7 +52,8 @@ p {
 #pie {
   padding-left: 100px !important;
   padding-right: 100px !important;
-  font-size: larger; font-weight: 400;
+  font-size: larger;
+  font-weight: 400;
 }
 
 hr {
