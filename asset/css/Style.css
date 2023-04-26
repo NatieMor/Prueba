@@ -1,0 +1,6 @@
+*{font-family:'Roboto', sans-serif;;}
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+  #mensaje{ height: max-content;}
