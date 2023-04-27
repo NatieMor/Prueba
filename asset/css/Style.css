@@ -1,18 +1,32 @@
 * {
   font-family: 'Roboto', sans-serif;
   background-color: black;
-  color: white; margin: 0; padding:0;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
 html {
   scroll-behavior: smooth;
 }
-nav{background-color:none !important;}
 
-#avion{width:50px; height: 50px;background-color: #0DCAF0 ; margin-right: 10px;}
+nav {
+  background-color: none !important;
+}
+
+#Content {
+  text-align: right;
+}
+
+#avion {
+  width: 50px;
+  height: 50px;
+  background-color: #0DCAF0;
+  margin-right: 10px;
+}
 
 .card-img-top {
-  width: 239px;
+  width: 240px;
   height: 200px;
 }
 
@@ -52,7 +66,8 @@ p {
   padding-left: 100px !important;
   padding-right: 100px !important;
   font-size: larger;
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 40px;
 }
 
 hr {
@@ -63,10 +78,29 @@ section {
   padding-top: 50pt;
 }
 
+.popover-body {
+  background-color: #0DCAF0 !important;
+  color: #000000;
+  font-size: 20px;
+}
+
+.popover-content {
+  color: deepskyblue
+}
+
+.popover-title {
+  background-color: #000000 !important;
+}
+
 .color-tex {
   color: white;
 }
-.tooltip{background-color: #0DCAF0; border-radius: 10px; font-size: 50px;}
+
+.title {
+  background-color: #0DCAF0;
+  border-radius: 10px;
+  font-size: 50px;
+}
 
 
 #mensaje {
@@ -80,4 +114,9 @@ i {
 p {
   font-weight: 300;
   font-size: medium;
+}
+
+.tooltip {
+  background-color: #0DCAF0;
+  font-size: 16px;
 }
