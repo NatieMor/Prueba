@@ -21,36 +21,35 @@
 
 <body>
     <header>
-        <nav id="Inicio" class="navbar fixed-top container-fluid navbar-light bg-nav">
-            <a class="navbar-brand">
-                <img src="asset/img/viajes.svg" width="30" height="30" class="d-inline-block align-top" alt="mundo">
-                Viajes Chile</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id="navbarNav" class="collapse navbar-collapse float-lg-right float-md-right float-md-right">
-                <span class="navbar-text"></span>
-                <ul class="navbar-nav nav">
-                    <li class="nav-item active color-tex">
-                        <a class="nav-link color-tex" href="#Inicio">Inicio<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item color-tex">
-                        <a class="nav-link color-tex" href="#nosotros">¿QUIENES SOMOS?</a>
-                    </li>
-                    <li class="nav-item color-tex">
-                        <a class="nav-link color-tex" href="#Destacados">DESTACADOS/a>
-                    </li>
-                    <li class="nav-item color-tex">
-                        <a class="nav-link" href="#contacto">CONTACTO</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="container-fluid bg-nav">
+        <nav class="container-fluid navbar navbar-expand-lg navbar-expand-md navbar-dark bg-nav">
+                <a class="navbar-brand bg-nav" href="#"> <img id="avion"src="asset/img/viajes.svg">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#Content" aria-controls="Content"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="Content" class="collapse navbar-collapse bg-nav float-left" >
+                    <ul class="navbar-nav mb-2 mb-lg-0 text-justify">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            
         </nav>
+    </div>
     </header>
 
     <!--Carusel de imagenes destacadas de la pagina-->
-    <section id="carousel" class="container-fluid">
+    <section id="carousel" class="container-fluid ">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -167,6 +166,14 @@
 
     <!--Una sección para contacto-->
     <section id="contacto" class="container-fluid pb-5">
+
+
+
+
+
+
+
+
         <div class="container">
             <h1 class="text-center">CONTACTO</h1>
             <hr>
@@ -180,9 +187,17 @@
                     <label for="exampleInputPassword1">Asunto</label>
                     <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Asunto">
                 </div>
-                <label for="text">Mensaje</label>
-                <input class="form-control form-control-lg mb-3" type="text" placeholder="¿En que podemos ayudarte?">
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <div class="form-floating">
+                    <label for="text">Mensaje</label>
+                    <textarea class="form-control form-control-lg mb-3" placeholder="¿En que podemos ayudarte?"
+                        style="height: 150px"></textarea>
+                </div>
+
+
+
+
+                <button id="enviar" type="submit" class="btn btn-primary" data-toggle="tooltip"
+                    title="Presiona para contactarnos">Enviar</button>
             </form>
         </div>
     </section>
@@ -199,9 +214,10 @@
         </footer>
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="asset/js/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
