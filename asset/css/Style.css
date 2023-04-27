@@ -120,4 +120,4 @@ p {
   background-color: #0DCAF0;
   font-size: 20px !important;
 }
-.media-breakpoint-up (sm){ display: none;}
+.media-breakpoint-up{ display: none;}

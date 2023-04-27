@@ -15,14 +15,8 @@ $(document).ready(function () {
     $(document).ready(function(){
         $('[data-toggle="tooltip"]').tooltip({placement="top"});   
       });
-      .custom-class {
-        display: none;
-      }
-      @include media-breakpoint-up(sm) {
-        .custom-class {
-          display: block;
-        }
-      }
+  
+      
 
 
 
