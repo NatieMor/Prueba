@@ -21,45 +21,46 @@
 
 <body>
     <header>
-        <div class="container-fluid bg-nav">
-        <nav class="container-fluid navbar navbar-expand-lg navbar-expand-md navbar-dark bg-nav">
-                <a class="navbar-brand bg-nav" href="#"> <img id="avion"src="asset/img/viajes.svg">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#Content" aria-controls="Content"
-                    aria-expanded="false" aria-label="Toggle navigation">
+        <div class="nav container-fluid bg-nav">
+            <nav class=" navbar container-fluid navbar-expand-lg navbar-expand-md navbar-dark bg-nav">
+                <a class="navbar-brand bg-nav" href="#"> <img id="avion" src="asset/img/viajes.svg"> Viajes Chile</a>
+                <button class="navbar-toggler bg-nav" type="button" data-bs-toggle="collapse" data-bs-target="#Content"
+                    aria-controls="Content" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <div id="Content" class="collapse navbar-collapse bg-nav float-left" >
-                    <ul class="navbar-nav mb-2 mb-lg-0 text-justify">
+                <div id="Content" class=" bg-nav collapse navbar-collapse float-lg-right float-md-right float-md-right">
+                    <ul class="navbar-nav d-flex">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active bg-nav" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link bg-nav" href="#nosotros">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            <a class="nav-link bg-nav" href="#Destacados">Destacados</a>
+                        </li>
+                        <li class="nav-item bg-nav">
+                            <a class="nav-link" href="#contacto">contacto</a>
                         </li>
                     </ul>
                 </div>
-            
+        </div>
         </nav>
-    </div>
+        </div>
     </header>
 
     <!--Carusel de imagenes destacadas de la pagina-->
-    <section id="carousel" class="container-fluid ">
+    <section id="carousel" class="container-fluid">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="img-carrusel" src="asset/img/carousel1.jpg" alt="Atacama">
+                    <img class="d-block w-100" src="asset/img/carousel1.jpg" alt="Atacama">
                 </div>
                 <div class="carousel-item">
-                    <img class="img-carrusel" src="asset/img/carousel2.jpg" alt="Isla de Pascua">
+                    <img class="d-block w-100" src="asset/img/carousel2.jpg" alt="Isla de Pascua">
                 </div>
                 <div class="carousel-item">
-                    <img class="img-carrusel" src="asset/img/carousel3.jpg" alt="Punta Arenas">
+                    <img class="d-block w-100" src="asset/img/carousel3.jpg" alt="Punta Arenas">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -73,14 +74,15 @@
         </div>
     </section>
 
-    <!--Presentacion-->
+
+    <!--Presentación-->
     <section id="nosotros" class="container-fluid">
         <div class="container">
             <h1 class="text-center">¿QUIÉNES SOMOS?</h1>
             <hr>
             <div class="card-deck">
                 <div id="deck1" class="card">
-                    <i class="fas fa-plane fa-lg text-center gn-icon " style="color: #ffffff;"></i>
+                    <i id="plane" class="fas fa-plane fa-lg text-center gn-icon" data-toggle="popover" style="color: #ffffff;"></i>
                     <div class="body">
                         <p class="card-text text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Incidunt illo harum, ipsa aliquam reprehenderit ipsam consequatur sequi fugiat officiis
@@ -99,10 +101,11 @@
                             natus expedita! Explicabo molestias voluptatem facilis sit repellendus hic debitis, ut
                             delectus aut tenetur officia eveniet iure expedita!</p>
                     </div>
-                    <i class="fas fa-mountain fa-lg text-center gn-icon" style="color: #ffffff;"></i>
+                    <i id="montaña" class="fas fa-mountain fa-lg text-center gn-icon" data-toggle="popover" style="color: #ffffff;"></i>
+                        <a></a></i>
                 </div>
                 <div id="deck1" class="card">
-                    <i class="fas fa-route fa-lg text-center gn-icon" style="color: #ffffff;"></i>
+                    <i id="ruta" class="fas fa-route fa-lg text-center gn-icon" data-toggle="popover" style="color: #ffffff;"></i>
                     <div class="body">
                         <p class="card-text text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                             Voluptates officia a mollitia reiciendis maiores commodi eveniet quidem placeat totam
@@ -122,7 +125,7 @@
             <h1 class="text-center">DESTACADOS</h1>
             <hr>
             <div class="card-deck">
-                <div class="card ">
+                <div class="card">
                     <img class="card-img-top" src="asset/img/card1.jpg" alt="Magia del sur">
                     <div class="card-body bg-nav">
                         <h5 class="card-title bg-nav">Card title</h5>
@@ -166,14 +169,6 @@
 
     <!--Una sección para contacto-->
     <section id="contacto" class="container-fluid pb-5">
-
-
-
-
-
-
-
-
         <div class="container">
             <h1 class="text-center">CONTACTO</h1>
             <hr>
@@ -193,9 +188,6 @@
                         style="height: 150px"></textarea>
                 </div>
 
-
-
-
                 <button id="enviar" type="submit" class="btn btn-primary" data-toggle="tooltip"
                     title="Presiona para contactarnos">Enviar</button>
             </form>
@@ -204,7 +196,7 @@
 
     <!--pie de pagina-->
     <section class="container-fluid footer ">
-        <footer id="pie" class="container footer text-start"> Viajes chile
+        <footer id="pie" class="container footer text-start"> VIAJES CHILE
             <div class="float-right bg-nav">
                 <i class="fab fa-github-square" style="color: #ffffff;"></i>
                 <i class=" fab fa-linkedin" style="color: #ffffff;"></i>
