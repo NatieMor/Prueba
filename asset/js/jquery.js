@@ -12,7 +12,11 @@ $(document).ready(function () {
     $(document).ready(function () {
         $('#montaña').popover({ title: "lugares", content: "landscapes, playas, lagos, bosques y toda la naturaleza que quieras", trigger: "hover", placement: "bottom" });
     });
-
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip({placement="top"});   
+      });
+  
+      
 
 
 
