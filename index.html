@@ -21,32 +21,35 @@
 
 <body>
     <header>
-        <nav class="navbar fixed-top container-fluid navbar-light">
-            <a class="navbar-brand">
-                <img src="asset/img/viajes.svg" width="30" height="30" class="d-inline-block align-top" alt="mundo">
-                Viajes Chile</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id="navbarNav" class="collapse navbar-collapse float-lg-right float-md-right float-md-right">
-                <ul class="navbar-nav nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="">Inicio<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">¿QUIENES SOMOS?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Destacados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+        <div class="container-fluid bg-nav">
+            <nav class="container-fluid fixed-top navbar navbar-expand-lg navbar-expand-md navbar-dark bg-nav">
+                    <a class="navbar-brand bg-nav" href="#"> <img id="avion"src="asset/img/viajes.svg">Viajes Chile</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#Content" aria-controls="Content"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div id="Content" class="collapse navbar-collapse bg-nav float-left" >
+                        <ul class="navbar-nav mb-2 mb-lg-0 text-justify bg-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link active bg-nav " aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link color-tex bg-nav " href="#nosotros">¿QUIENES SOMOS?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link color-tex bg-nav " href="#Destacados">DESTACADOS </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link bg-nav " href="#contacto">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+            </nav>
+        </div>
+        </header>
     <!--Carusel de imagenes destacadas de la pagina-->
 
     <section id="carousel" class="container-fluid">
@@ -78,39 +81,44 @@
         <div class="container">
             <h1 class="text-center">¿QUIÉNES SOMOS?</h1>
             <hr>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="faviconAvion">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional content. This content is a little bit longer.</p>
-                        </div>
+            <div class="card-deck">
+                <div id="deck1" class="card">
+                    <i id="plane" class="fas fa-plane fa-lg text-center gn-icon" data-toggle="popover"  style="color: #ffffff;"></i>
+                    <div class="body">
+                        <p class="card-text text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Incidunt illo harum, ipsa aliquam reprehenderit ipsam consequatur sequi fugiat officiis
+                            animi fuga exercitationem impedit tempore facilis vel cum aut accusamus aspernatur?
+                            Voluptate omnis modi minus numquam! Totam quis delectus velit aliquid dignissimos, ea
+                            natus expedita! Explicabo molestias voluptatem facilis sit repellendus hic debitis, ut
+                            delectus aut tenetur officia eveniet iure expedita!</p>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional content. This content is a little bit longer.</p>
-                        </div>
-                        <img src="..." class="card-img-top" alt="aviconMontaña">
+                <div id="deck1" class="card">
+                    <div class="body">
+                        <p class="card-text text-start "> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Incidunt illo harum, ipsa aliquam reprehenderit ipsam consequatur sequi fugiat officiis
+                            animi fuga exercitationem impedit tempore facilis vel cum aut accusamus aspernatur?
+                            Voluptate omnis modi minus numquam! Totam quis delectus velit aliquid dignissimos, ea
+                            natus expedita! Explicabo molestias voluptatem facilis sit repellendus hic debitis, ut
+                            delectus aut tenetur officia eveniet iure expedita!</p>
                     </div>
+                    <i id="montaña" class="fas fa-mountain fa-lg text-center gn-icon" data-toggle="popover" style="color: #ffffff;"></i>
                 </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="aviconRuta">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional content. This content is a little bit longer.</p>
-                        </div>
+                <div id="deck1" class="card">
+                    <i id="ruta" class="fas fa-route fa-lg text-center gn-icon" data-toggle="popover" style="color: #ffffff;"></i>
+                    <div class="body">
+                        <p class="card-text text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Voluptates officia a mollitia reiciendis maiores commodi eveniet quidem placeat totam
+                            rem? Esse, temporibus blanditiis. Sed aliquid quia accusantium illum voluptates neque?
+                            Iusto doloremque, blanditiis assumenda, minima aut exercitationem neque officiis
+                            voluptatem nulla esse placeat obcaecati dolor error est enim unde labore aliquid.
+                            Architecto excepturi laboriosam praesentium illo tenetur commodi ipsa fuga?</p>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
+
 
     <!--seccion destacado-->
 
@@ -118,51 +126,55 @@
         <div class="container">
             <h1 class="text-center">DESTACADOS</h1>
             <hr>
-            <div class="row row-cols-md-3">
-            <div class="col-3">
+            <div class="card-deck">
+                <div class="card ">
+                    <img class="card-img-top" src="asset/img/card1.jpg" alt="Magia del sur">
+                    <div class="card-body bg-nav">
+                        <h5 class="card-title bg-nav">Lorem ipsum</h5>
+                        <p class="card-text bg-nav">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Consequuntur magni aliquam veritatis ab labore enim suscipit accusamus commodi atque,
+                            excepturi rerum minus explicabo quas fugit eos totam obcaecati sunt ad.</p>
+                    </div>
+                </div>
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="faviconAvion">
+                    <img class="card-img-top" src="asset/img/card2.jpg" alt="Laguna espejo">
+                    <div class="card-body ">
+                        <h5 class="card-title bg-nav">Lorem ipsum</h5>
+                        <p class="card-text bg-nav">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
+                            repudiandae perspiciatis quia harum. Odit excepturi culpa repellendus dolore, eligendi
+                            praesentium ducimus quasi dolores, sapiente illum incidunt, adipisci iure voluptatum velit?
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="asset/img/card3.jpg" alt="Desierto">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                            to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title bg-nav">Lorem ipsum</h5>
+                        <p class="card-text bg-nav">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+                            eius, rem doloribus fuga beatae facilis laudantium. Exercitationem, officiis nihil eaque
+                            laboriosam qui rem id architecto, ea minus nam mollitia at.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="asset/img/card4.jpg" alt="Bosques del sur">
+                    <div class="card-body">
+                        <h5 class="card-title bg-nav">Lorem ipsum</h5>
+                        <p class="card-text bg-nav">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa similique necessitatibus voluptatum beatae suscipit quod quo natus inventore, odio dicta fuga laborum cum fugit, nihil culpa modi numquam voluptatem enim!</p>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                            to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <img src="..." class="card-img-top" alt="aviconMontaña">
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="aviconRuta">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                            to additional content. This content is a little bit longer.</p>
-                    </div>
-                    </div>
-                    </div>
-            <div class="col-3">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="aviconRuta">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                            to additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-            </div>
-          </div>
+        </div>
     </section>
 
-    <section id="contacto " class="container-fluid pb-5">
+    <section id="contacto" class="container-fluid pb-5">
+
+
+
+
+
+
+
+
         <div class="container">
             <h1 class="text-center">CONTACTO</h1>
             <hr>
@@ -170,29 +182,39 @@
                 <div class="form-group">
                     <label for="exampleInputEmail1">Nombre</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Enter email">
+                        placeholder="Nombre Apellido">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Asunto</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Asunto">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Asunto">
                 </div>
-                <label for="text">Mensaje</label>
-                <input class="form-control form-control-lg mb-3" type="text" placeholder="Mensaje">
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <div class="form-floating">
+                    <label for="text">Mensaje</label>
+                    <textarea class="form-control form-control-lg mb-3" placeholder="¿En que podemos ayudarte?"
+                        style="height: 150px"></textarea>
+                </div>
+                <button id="enviar" type="submit" class="btn btn-primary" data-toggle="tooltip"
+                    title="Presiona para contactarnos">Enviar</button>
             </form>
         </div>
     </section>
-
-    <section class="container-fluid footer">
-        <div class="container footer">
-            <footer class="footer"> Viajes chile </footer>
-            <i> </i>
-        </div>
+        </footer>
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <section class="container-fluid footer ">
+        <footer id="pie" class="container footer text-start"> VIAJES CHILE
+            <div class="float-right bg-nav">
+                <a class="link" href="https://github.com/"><i class="fab fa-github-square" style="color: #ffffff"></i></a>
+                <a class="link" href="https://www.linkedin.com/"> <i class=" fab fa-linkedin" style="color: #ffffff;"></i></a>
+                    <a class="link" href="https://twitter.com/"><i class=" fab fa-twitter-square " style="color: #ffffff;"></i></a>
+                        <a class="link" href="https://es-la.facebook.com/"><i class=" fab fa-facebook-square" style="color: #ffffff;"></i></a>
+            </div>
+        </footer>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+    integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+<script src="asset/js/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
