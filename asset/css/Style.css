@@ -80,7 +80,7 @@ section {
 
 .popover-body {
   background-color: #0DCAF0 !important;
-  color: #000000;
+  color: #000000 !important;
   font-size: 20px;
 }
 
@@ -118,5 +118,5 @@ p {
 
 .tooltip {
   background-color: #0DCAF0;
-  font-size: 16px;
+  font-size: 20px !important;
 }

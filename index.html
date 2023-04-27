@@ -21,35 +21,37 @@
 
 <body>
     <header>
-        <div class="nav container-fluid bg-nav">
-            <nav class=" navbar container-fluid navbar-expand-lg navbar-expand-md navbar-dark bg-nav">
-                <a class="navbar-brand bg-nav" href="#"> <img id="avion" src="asset/img/viajes.svg"> Viajes Chile</a>
-                <button class="navbar-toggler bg-nav" type="button" data-bs-toggle="collapse" data-bs-target="#Content"
-                    aria-controls="Content" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div id="Content" class=" bg-nav collapse navbar-collapse float-lg-right float-md-right float-md-right">
-                    <ul class="navbar-nav d-flex">
-                        <li class="nav-item">
-                            <a class="nav-link active bg-nav" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link bg-nav" href="#nosotros">Quienes Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link bg-nav" href="#Destacados">Destacados</a>
-                        </li>
-                        <li class="nav-item bg-nav">
-                            <a class="nav-link" href="#contacto">contacto</a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="container-fluid bg-nav">
+            <nav class="container-fluid fixed-top navbar navbar-expand-lg navbar-expand-md navbar-dark bg-nav">
+                    <a class="navbar-brand bg-nav" href="#"> <img id="avion"src="asset/img/viajes.svg">Viajes Chile</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#Content" aria-controls="Content"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div id="Content" class="collapse navbar-collapse bg-nav float-left" >
+                        <ul class="navbar-nav mb-2 mb-lg-0 text-justify bg-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link active bg-nav " aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link color-tex bg-nav " href="#nosotros">¿QUIENES SOMOS?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link color-tex bg-nav " href="#Destacados">DESTACADOS </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link bg-nav " href="#contacto">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+            </nav>
         </div>
-        </nav>
-        </div>
-    </header>
-
+        </header>
     <!--Carusel de imagenes destacadas de la pagina-->
+
     <section id="carousel" class="container-fluid">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -74,15 +76,14 @@
         </div>
     </section>
 
-
-    <!--Presentación-->
+    <!--presentacion-->
     <section id="nosotros" class="container-fluid">
         <div class="container">
             <h1 class="text-center">¿QUIÉNES SOMOS?</h1>
             <hr>
             <div class="card-deck">
                 <div id="deck1" class="card">
-                    <i id="plane" class="fas fa-plane fa-lg text-center gn-icon" data-toggle="popover" style="color: #ffffff;"></i>
+                    <i id="plane" class="fas fa-plane fa-lg text-center gn-icon" data-toggle="popover"  style="color: #ffffff;"></i>
                     <div class="body">
                         <p class="card-text text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                             Incidunt illo harum, ipsa aliquam reprehenderit ipsam consequatur sequi fugiat officiis
@@ -102,7 +103,6 @@
                             delectus aut tenetur officia eveniet iure expedita!</p>
                     </div>
                     <i id="montaña" class="fas fa-mountain fa-lg text-center gn-icon" data-toggle="popover" style="color: #ffffff;"></i>
-                        <a></a></i>
                 </div>
                 <div id="deck1" class="card">
                     <i id="ruta" class="fas fa-route fa-lg text-center gn-icon" data-toggle="popover" style="color: #ffffff;"></i>
@@ -119,16 +119,18 @@
         </div>
     </section>
 
-    <!--Seccion destacado-->
+
+    <!--seccion destacado-->
+
     <section id="Destacados" class="container-fluid">
         <div class="container">
             <h1 class="text-center">DESTACADOS</h1>
             <hr>
             <div class="card-deck">
-                <div class="card">
+                <div class="card ">
                     <img class="card-img-top" src="asset/img/card1.jpg" alt="Magia del sur">
                     <div class="card-body bg-nav">
-                        <h5 class="card-title bg-nav">Card title</h5>
+                        <h5 class="card-title bg-nav">Lorem ipsum</h5>
                         <p class="card-text bg-nav">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                             Consequuntur magni aliquam veritatis ab labore enim suscipit accusamus commodi atque,
                             excepturi rerum minus explicabo quas fugit eos totam obcaecati sunt ad.</p>
@@ -137,7 +139,7 @@
                 <div class="card">
                     <img class="card-img-top" src="asset/img/card2.jpg" alt="Laguna espejo">
                     <div class="card-body ">
-                        <h5 class="card-title bg-nav">Card title</h5>
+                        <h5 class="card-title bg-nav">Lorem ipsum</h5>
                         <p class="card-text bg-nav">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
                             repudiandae perspiciatis quia harum. Odit excepturi culpa repellendus dolore, eligendi
                             praesentium ducimus quasi dolores, sapiente illum incidunt, adipisci iure voluptatum velit?
@@ -147,7 +149,7 @@
                 <div class="card">
                     <img class="card-img-top" src="asset/img/card3.jpg" alt="Desierto">
                     <div class="card-body">
-                        <h5 class="card-title bg-nav">Card title</h5>
+                        <h5 class="card-title bg-nav">Lorem ipsum</h5>
                         <p class="card-text bg-nav">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
                             eius, rem doloribus fuga beatae facilis laudantium. Exercitationem, officiis nihil eaque
                             laboriosam qui rem id architecto, ea minus nam mollitia at.</p>
@@ -156,19 +158,23 @@
                 <div class="card">
                     <img class="card-img-top" src="asset/img/card4.jpg" alt="Bosques del sur">
                     <div class="card-body">
-                        <h5 class="card-title bg-nav">Card title</h5>
-                        <p class="card-text bg-nav">This is a wider card with supporting text below as a natural lead-in
-                            to
-                            additional content. This card has even longer content than the first to show that equal
-                            height action.</p>
+                        <h5 class="card-title bg-nav">Lorem ipsum</h5>
+                        <p class="card-text bg-nav">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa similique necessitatibus voluptatum beatae suscipit quod quo natus inventore, odio dicta fuga laborum cum fugit, nihil culpa modi numquam voluptatem enim!</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--Una sección para contacto-->
     <section id="contacto" class="container-fluid pb-5">
+
+
+
+
+
+
+
+
         <div class="container">
             <h1 class="text-center">CONTACTO</h1>
             <hr>
@@ -187,36 +193,34 @@
                     <textarea class="form-control form-control-lg mb-3" placeholder="¿En que podemos ayudarte?"
                         style="height: 150px"></textarea>
                 </div>
-
                 <button id="enviar" type="submit" class="btn btn-primary" data-toggle="tooltip"
                     title="Presiona para contactarnos">Enviar</button>
             </form>
         </div>
     </section>
+        </footer>
+    </section>
 
-    <!--pie de pagina-->
     <section class="container-fluid footer ">
         <footer id="pie" class="container footer text-start"> VIAJES CHILE
             <div class="float-right bg-nav">
-                <i class="fab fa-github-square" style="color: #ffffff;"></i>
-                <i class=" fab fa-linkedin" style="color: #ffffff;"></i>
-                <i class=" fab fa-twitter-square " style="color: #ffffff;"></i>
-                <i class=" fab fa-facebook-square" style="color: #ffffff;"></i>
+                <a class="link" href="https://github.com/"><i class="fab fa-github-square" style="color: #ffffff"></i></a>
+                <a class="link" href="https://www.linkedin.com/"> <i class=" fab fa-linkedin" style="color: #ffffff;"></i></a>
+                    <a class="link" href="https://twitter.com/"><i class=" fab fa-twitter-square " style="color: #ffffff;"></i></a>
+                        <a class="link" href="https://es-la.facebook.com/"><i class=" fab fa-facebook-square" style="color: #ffffff;"></i></a>
             </div>
         </footer>
     </section>
 
-
     <script src="https://code.jquery.com/jquery-3.6.4.js"
-        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
-    <script src="asset/js/jquery.js"></script>
+    integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+<script src="asset/js/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
