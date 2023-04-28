@@ -10,19 +10,28 @@ html {
   scroll-behavior: smooth;
 }
 
-nav {
-  background-color: none !important;
+#Inicio {
+  padding-left: 60px;
+}
+
+.nav-bg {
+  background-color: transparent !important;
+}
+
+#Content {
+  text-align: right;
+  float: inline-end;
 }
 
 #avion {
   width: 50px;
   height: 50px;
-  background-color: #0DCAF0;
   margin-right: 10px;
+  background-color: transparent !important
 }
 
 .card-img-top {
-  width: 239px;
+  width: 240px;
   height: 200px;
 }
 
@@ -39,8 +48,9 @@ nav {
   padding: 10px;
 }
 
-#deck1 {
+.deck1 {
   border: none !important;
+  background-color: #000000 !important;
 }
 
 
@@ -61,8 +71,12 @@ p {
 #pie {
   padding-left: 100px !important;
   padding-right: 100px !important;
+  font-size: larger;
+  font-weight: 300;
   font-size: 40px;
-  font-weight: 400;
+  flex-wrap: wrap!important;
+  justify-content: space-between!important;
+  align-items: center!important;
 }
 
 hr {
@@ -73,12 +87,23 @@ section {
   padding-top: 50pt;
 }
 
+.popover-body {
+  background-color: #0DCAF0 !important;
+  color: #000000 !important;
+  font-size: 20px;
+}
+
+.popover-content {
+  color: deepskyblue;
+  font-family: 'Playfair Display', serif !important;
+}
+
 .color-tex {
   color: white;
 }
 
-.tooltip {
-  background-color: #0DCAF0 !important;
+.title {
+  background-color: #0DCAF0;
   border-radius: 10px;
   font-size: 50px;
 }
@@ -89,7 +114,7 @@ section {
 }
 
 i {
-  background-color: #0DCAF0;
+  background-color: #0DCAF0; justify-content: flex-end!important; flex-wrap: wrap;
 }
 
 p {
@@ -97,26 +122,7 @@ p {
   font-size: medium;
 }
 
-.popover {
-  border: 2px dotted red;
-  background-color: aqua;
-}
-
-.popover-title {
+.tooltip {
   background-color: #0DCAF0;
-  color: #000000;
-  font-size: 28px;
-  text-align: center;
+  font-size: 20px !important;
 }
-
-.popover-content: {
-  background-color: #0DCAF0 !important;
-  color: #FFFFFF;
-  padding: 25px;
-}
-
-.arrow {
-  border-right-color: #0DCAF0 !important;
-}
-
-.tooltip{background-color: #0DCAF0 !important; border-radius: 10px; font-size: 50px;}
