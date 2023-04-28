@@ -7,15 +7,6 @@ $(document).ready(function () {
     $("#enviar").click(function () {
         alert("El correo fue enviado exitosamente, nos pondremos en contacto pronto...");
     });
-    $(document).ready(function () {
-        $('#montaña').popover({ title: "lugares", content: "landscapes, playas, lagos, bosques y toda la naturaleza que quieras", trigger: "hover", placement: "bottom" });
-    });
-    $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip({placement="top"});   
-      });
-  
-      
-
 
     $('#plane').popover({ content: "Somos viajeros a destinos increibles y que nos motiva a compartir lo glorioso de nuestro país", placement: "top", trigger: "hover" });
 
